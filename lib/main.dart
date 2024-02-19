@@ -1,13 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:haveaseat/screens/homeScreen.dart';
+import 'package:haveaseat/screens/home_screen.dart';
 import 'firebase_options.dart';
-import 'dart:developer' as dev;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // await NaverMapSdk.instance.initialize();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -17,16 +15,16 @@ void main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'HAVE A SEAT',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'HAVE A SEAT'),
     );
   }
 }
@@ -46,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return const ScreenUtilInit(
       designSize: Size(375, 812),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: HomeScreen(),
       ),
     );

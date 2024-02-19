@@ -51,13 +51,15 @@ class Attr {
   String? dataIndicatorText;
   String? dataLabel;
   String? dataLineWidth;
+  String? line_id;
 
   Attr(
       {this.dataColor,
       this.dataIndicatorTextEn,
       this.dataIndicatorText,
       this.dataLabel,
-      this.dataLineWidth});
+      this.dataLineWidth,
+      this.line_id});
 
   Attr.fromJson(Map<String, dynamic> json) {
     dataColor = json['data-color'];
@@ -65,6 +67,7 @@ class Attr {
     dataIndicatorText = json['data-indicator-text'];
     dataLabel = json['data-label'];
     dataLineWidth = json['data-lineWidth'];
+    line_id = json["line_id"];
   }
 
   Map<String, dynamic> toJson() {
@@ -74,6 +77,7 @@ class Attr {
     data['data-indicator-text'] = this.dataIndicatorText;
     data['data-label'] = this.dataLabel;
     data['data-lineWidth'] = this.dataLineWidth;
+    data['line_id'] = this.line_id;
     return data;
   }
 }
