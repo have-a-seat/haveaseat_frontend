@@ -157,7 +157,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: MediaQuery.sizeOf(context).height,
                 width: MediaQuery.sizeOf(context).width,
                 child: Image.asset(
-                  "assets/videos/home.gif",
+                  "assets/gifs/home.gif",
                   fit: BoxFit.cover,
                 ),
               ),

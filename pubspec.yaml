@@ -58,7 +58,7 @@ flutter:
     - assets/images/title.png
     - assets/images/boarding_station.png
     - assets/images/subway.png
-    - assets/videos/home.gif
+    - assets/gifs/home.gif
   fonts:
     - family: R.font.pretendard
       fonts:
