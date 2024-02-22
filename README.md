@@ -8,10 +8,8 @@ Through this service, pregnant women can check the availability of subway courte
 
 <a href="https://youtu.be/OP5CeRXZ9Ic">Watch Demo Video &rarr;</a>
 
-## 🧑🏻‍💻 Tech Stack
-<img src="https://img.shields.io/badge/Flutter-#02569B?style=for-the-badge&logo=flutter&logoColor=white">
-<img src="https://img.shields.io/badge/Firebase, Firestore-#FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
-<img src="https://img.shields.io/badge/Google Cloud Function#4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
+## 🧑🏻‍💻 Tech Stacks
+<img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white"> <img src="https://img.shields.io/badge/firebase & firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=white"> <img src="https://img.shields.io/badge/Google Cloud Function-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
 
 ## 🚀 Installation
 
